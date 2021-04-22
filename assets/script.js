@@ -8,8 +8,8 @@ function generatePassword() {
 //All characters user can choose
 var lowerCase = ["abcdefghijklmnopqrstuvwxyz"];
 var upperCase = ["ABCDEFGHIJKLMNOPQRSTUVWXYZ"];
-var numberCharacters = ["0123456789"];
-var specialCharacters = ["!#$%&'()*+,-./:;<=>?@[]^_`{|}~"];
+var nmCharacters = ["0123456789"];
+var spCharacters = ["!#$%&'()*+,-./:;<=>?@[]^_`{|}~"];
 
 // Write password to the #password input
 function writePassword() {
